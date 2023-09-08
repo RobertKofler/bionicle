@@ -37,3 +37,9 @@ reader-fasta.py myfile.fasta | fasta-flanker-fasta --flank-leng 10 --bed file.be
 ```
 reader-fasta.py myfile.fasta | fasta-length
 ```
+
+### convert fasta to fastq
+
+```
+reader-fasta.py myfile.fasta | fasta-2-fastq | fastq-writer > output.file
+```
